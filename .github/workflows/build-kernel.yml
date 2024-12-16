@@ -63,5 +63,5 @@ jobs:
       - name: Upload kernel to artifact
         uses: actions/upload-artifact@v4
         with:
-          name: output_kernel
+          name: Hatsune-Miku-4.9-mido-udc
           path: AnyKernel3/*
