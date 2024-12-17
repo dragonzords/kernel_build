@@ -63,5 +63,5 @@ jobs:
       - name: Upload kernel to artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Ram - 4.14 vayu by hnkksk fifteen
+          name: Barong - 4.19 begonia by hnkksk
           path: AnyKernel3/*
