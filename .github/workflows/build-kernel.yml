@@ -63,5 +63,5 @@ jobs:
       - name: Upload kernel to artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Gracia - 4.14 vayu by hnkksk
+          name: Q-OSS Barong - 4.14 begonia by hnkksk
           path: AnyKernel3/*
