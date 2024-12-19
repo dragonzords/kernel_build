@@ -31,7 +31,7 @@ jobs:
 
       - name: Build kernel
         run: |
-          export KBUILD_BUILD_USER="hnkksk"
+          export KBUILD_BUILD_USER="dlwlrma"
           export KBUILD_BUILD_HOST="workspace"
           export PATH=$GITHUB_WORKSPACE/clang/bin:${PATH}
           args="                  ARCH=arm64 \
@@ -63,5 +63,5 @@ jobs:
       - name: Upload kernel to artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Q-OSS Barong - 4.14 begonia by hnkksk
+          name: StriX - 4.14-3.23 begonia by dlwlrma
           path: AnyKernel3/*
