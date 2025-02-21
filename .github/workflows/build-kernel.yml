@@ -63,5 +63,5 @@ jobs:
       - name: Upload kernel to artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Antares-4.14.336-begonia-kernel by hnkksk
+          name: Kizuna-4.19.306-chime-kernel by Tharfoldz
           path: AnyKernel3/*
