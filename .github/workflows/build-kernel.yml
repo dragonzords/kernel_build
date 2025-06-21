@@ -63,5 +63,5 @@ jobs:
       - name: Upload kernel to artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Brave-4.14.336 Begonia By Luffy
+          name: RageFreeze Begonia Revision By Luffy
           path: AnyKernel3/*
